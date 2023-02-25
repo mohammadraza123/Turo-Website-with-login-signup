@@ -1,0 +1,41 @@
+.ant-modal-content{
+  /* background-color: red !important; */
+  height: 650px !important;
+  margin-top: -60px !important;
+}
+.main-container{
+  text-align: center;
+}
+.login_heading{
+  margin-top: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.login_form{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  text-align: left;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+.user_login{
+  padding: 8px;
+  margin-bottom: 10px;
+  margin-top: 8px;
+  border:1px solid #c7c7c7;
+}
+.ant-modal-footer{
+  display: none !important;
+}
+.log_btn{
+  background-color:rgb(89, 60, 251);
+  width: 400;
+  padding: 12px;
+  color: white;
+  margin-top: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+}
