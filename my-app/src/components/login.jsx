@@ -1,6 +1,5 @@
 import { Button, Modal } from 'antd';
 import { useState } from 'react';
-
 import  './login.css';
 const App = ( ) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -13,7 +12,7 @@ const App = ( ) => {
   const handleCancel = () => {
     setIsModalOpen(false);
   };
-
+  
   
   return (
     <>
@@ -27,10 +26,10 @@ const App = ( ) => {
         <form className='login_form'>
 
      <label>Email</label>
-     <input  className='user_login' type= 'email'  placeholder='Email'></input>
+     <input  className='user_login' type= 'email'  placeholder='Email' id='log_email'></input>
 
      <label >Password</label>
-     <input className='user_login' type = 'password' placeholder='Password'></input>
+     <input className='user_login' type = 'password' placeholder='Password' id='log_pas'></input>
      <button className='log_btn'>Log in</button>
         </form>
         </div>
@@ -40,6 +39,9 @@ const App = ( ) => {
       </Modal>
     </>
     
-  );
-};
+    );
+  };
 export default App;
+
+// let email = document.getElementById("log_email")
+// console.log(email);
